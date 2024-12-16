@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to your Dream Cabanet</h1>
+        <h1>Welcome to Your Dream Cabinet</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -20,13 +20,13 @@
         </nav>
     </header>
 
-    <section ="intro">
-        <h2>Welcome to the/my world of Cabinetry</h2>
-        <p>This compnany is all about sharing my crafting experiences, tips, and experiance throught my work. Join me as I dive into cabinet designs, woodworking techniques, and tips for your next project!</p>
+    <section id="intro">
+        <h2>Welcome to the World of Cabinetry</h2>
+        <p>This company is all about sharing my crafting experiences, tips, and expertise through my work. Join me as I dive into cabinet designs, woodworking techniques, and tips for your next project!</p>
     </section>
 
     <footer>
-        <p>© 2024 My Travel Blog | <a href="privacy.pdf">Privacy Policy</a> | <a href="audio-file.mp3">Listen to My Travel Story</a></p>
+        <p>&copy; 2024 DreamCabinetry | <a href="privacy.pdf">Privacy Policy</a> | <a href="audio-file.mp3">Listen to My Cabinetry Journey</a></p>
     </footer>
 </body>
 </html>
