@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - DreamCabinetry</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="header-gradient">
+            <h1>About DreamCabinetry</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services and Prices</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about-intro">
+            <h2>Our Story</h2>
+            <img src="images/about.jpg" alt="Workshop Image" class="floated-image">
+            <p>DreamCabinetry began with a passion for crafting beautiful, functional spaces. With years of experience in woodworking and design, we have grown into a trusted name in custom cabinetry, offering personalized solutions for every home.</p>
+            <p>We pride ourselves on attention to detail, quality craftsmanship, and exceeding customer expectations in every project we undertake.</p>
+        </section>
+
+        <section id="team">
+            <h2>Meet the Team</h2>
+            <p>Our team is composed of skilled artisans and designers dedicated to bringing your dream spaces to life. From concept to installation, we work closely with you to ensure every detail is perfect.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-gradient">
+            <p>&copy; 2024 DreamCabinetry | <a href="privacy.pdf">Privacy Policy</a> | <a href="audio-file.mp3">Listen to Our Story</a></p>
+        </div>
+    </footer>
+</body>
+</html>
