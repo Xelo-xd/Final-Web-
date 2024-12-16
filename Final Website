@@ -8,20 +8,21 @@
 </head>
 <body>
     <header>
-        <h1></h1>
+        <h1>Welcome to your Dream Cabanet</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="destinations.html">Destinations</a></li>
-                <li><a href="travel-tips.html">Travel Tips</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services and Prices</a></li>
+                <li><a href="project.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="intro">
-        <h2>Explore the World with Me</h2>
-        <p>This blog is all about sharing my travel experiences, tips, and favorite destinations. Join me on my adventures!</p>
+    <section ="intro">
+        <h2>Welcome to the/my world of Cabinetry</h2>
+        <p>This compnany is all about sharing my crafting experiences, tips, and experiance throught my work. Join me as I dive into cabinet designs, woodworking techniques, and tips for your next project!</p>
     </section>
 
     <footer>
