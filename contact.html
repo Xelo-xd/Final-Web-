@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - DreamCabinetry</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Dream Cabinet</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services and Prices</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>If you have any questions or want to get in touch with us, feel free to reach out using the form below or contact us directly.</p>
+                
+                <h3>Our Contact Details:</h3>
+                <ul>
+                    <li>Email: <a href="mailto:info@dreamcabinetry.com">info@dreamcabinetry.com</a></li>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>Address: 123 Cabinet Street, Woodville, USA</li>
+                </ul>
+            </div>
+
+            <h3>Contact Form</h3>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DreamCabinetry | <a href="privacy.pdf">Privacy Policy</a> | <a href="audio-file.mp3">Listen to My Cabinetry Journey</a></p>
+    </footer>
+</body>
+</html>
