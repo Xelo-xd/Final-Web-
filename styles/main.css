@@ -1,0 +1,63 @@
+/* Existing styles in your main.css */
+
+/* Product Page Styles */
+.product-gallery {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 1em;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2em;
+    padding: 0;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    background-color: #f9f9f9;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #555;
+    margin: 0.5em 0;
+}
+
+.product-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
